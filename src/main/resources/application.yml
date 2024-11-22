@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/TripPlanSystem
+    username: root
+    password: 1234
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: naradamahendra@gmail.com
+    password: nklu imay hnlh slkq
+    properties:
+        mail:
+          smtp:
+            auth: true
+            starttls:
+              enable: true
